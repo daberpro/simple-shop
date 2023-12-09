@@ -1,0 +1,24 @@
+{
+	"server_config":{
+		"server_name": "web tokoh",
+		"server_version": "1.0.0",
+		"server_port": 3000,
+		"server_host": "0.0.0.0",
+		"static_web": [
+			{
+				"route": "/",
+				"path": "/public"
+			}
+		],
+		"error_web": "/public/error/index.html"
+	},
+	"database_config":{
+		"database_url":"tcp://127.0.0.1:3306",
+		"database_name": "restapi",
+		"user": "root",
+		"password": "",
+		"public_data": [ 
+			"barang" 
+		]
+	}
+}
