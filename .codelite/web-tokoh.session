@@ -15,4 +15,11 @@
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="9" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
-      <IntVector Na
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc;*.plist;*.txt" Name="m_findInFilesMask"/>
+</Session>
